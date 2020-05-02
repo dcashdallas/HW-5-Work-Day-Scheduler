@@ -1,6 +1,6 @@
 # HW-5-Work-Day-Scheduler
 
-This is a daily planner to be used to create a schedule
+This is a daily planner which can be used to create a schedule
 
 - When the planner is initiated, the current day is displayed.
 - The current day is displayed and when scrolled down, you are presented with timeblocks for that day.
