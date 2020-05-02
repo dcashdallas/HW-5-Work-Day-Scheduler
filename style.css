@@ -18,7 +18,7 @@ textarea{
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px double dodgerblue;
 }
 
 .description{
@@ -38,30 +38,33 @@ textarea{
 
 .hour {
   background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  color: dodgerblue;
+  border-top: 1px solid dodgerblue;
 }
 
 .past {
   background-color: #d3d3d3;
-  color: white;
+  color: black;
+  font-weight: lighter;
 }
 
 .present {
-  background-color: #ff6961;
-  color: white;
+  background-color: white;
+  color: black;
+  font-weight: bolder;
 }
 
 .future {
-  background-color: #77dd77;
-  color: white;
+  background-color: purple;
+  color: black;
+  font-weight: bolder;
 }
 
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: red;
   color: white;
 }
 
