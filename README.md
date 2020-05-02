@@ -2,29 +2,10 @@
 
 This is a daily planner to be used to create a schedule
 
-- When the planned is initiated, the current day is displayed. WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
+- When the planner is initiated, the current day is displayed.
+- The current day is displayed and when scrolled down, you are presented with timeblocks for that day.
+- The timeblocks are for standard business day hours (9am to 5pm).
+- The timeblocks are color coded to indicate, past, present or future times.
+- When I click inside a timeblock, I can enter an event or task to be completed for that hour. 
+- When I click the add to calender button, the text for that event is saved in local storage. 
+- If the page is refreshed, the saved events will still be shown in the corresponding timeblock. 
