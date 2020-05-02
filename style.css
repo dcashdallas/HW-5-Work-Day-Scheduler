@@ -39,8 +39,10 @@ textarea{
 
 .hour {
   background-color: #ffffff;
-  color: dodgerblue;
+  color: black;
+  text-align: justify;
   border: 1px solid dodgerblue;
+  text-align: center;
 }
 
 .past {
@@ -61,7 +63,7 @@ textarea{
   font-weight: bolder;
 }
 
-.saveBtn {
+.saveButton {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -74,7 +76,7 @@ textarea{
   font-weight: bolder;
 }
 
-/* .saveBtn i:hover {
+.saveButton i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
-} */
+}
