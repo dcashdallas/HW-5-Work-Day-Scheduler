@@ -1,15 +1,11 @@
 // Variables
 var m = moment();
-
-var words;
-var hourInfo;
+var tasks;
+var timeBlock;
 
 console.log(m.format("dddd, MMMM Do"));
 
 $("#currentDay").text(m.format("dddd, MMMM Do"));
-
-
-
 
 $(document).ready(function () {
     colorChange();
@@ -43,11 +39,11 @@ function colorChange() {
 
 
 $(".saveBtn").click(function () {
-    words = $(this).siblings(".input").val();
-    console.log(words);
-    hourInfo = $(this).siblings(".hour").text();
-    console.log(hourInfo);
-    localStorage.setItem(hourInfo, JSON.stringify(words));
+    tasks = $(this).siblings(".input").val();
+    console.log(tasks);
+    timeBlock = $(this).siblings(".hour").text();
+    console.log(timeBlock);
+    localStorage.setItem(timeBlock, JSON.stringify(tasks));
 
     colorChange();
     renderText();

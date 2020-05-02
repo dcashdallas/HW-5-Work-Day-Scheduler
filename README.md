@@ -9,3 +9,5 @@ This is a daily planner to be used to create a schedule
 - When I click inside a timeblock, I can enter an event or task to be completed for that hour. 
 - When I click the add to calender button, the text for that event is saved in local storage. 
 - If the page is refreshed, the saved events will still be shown in the corresponding timeblock. 
+
+Site deployed at https://dcashdallas.github.io/HW-5-Work-Day-Scheduler/
