@@ -14,18 +14,18 @@ $(document).ready(function () {
 
 function colorChange() {
 
-    var realTime = moment().hours();
-    console.log("Current Time" + realTime);
+    var currentTime = moment().hours();
+    console.log("Current Time" + currentTime);
 
     $(".input").each(function () {
         var timeTest = parseInt($(this).attr("id"));
         console.log(timeTest);
 
-        if (realTime > timeTest) {
+        if (currentTime > timeTest) {
             $(this).removeClass("future");
             $(this).removeClass("present");
             $(this).addClass("past");
-        } else if (realTime < timeTest) {
+        } else if (currentTime < timeTest) {
             $(this).removeClass("present");
             $(this).removeClass("past");
             $(this).addClass("future");
@@ -54,6 +54,7 @@ function renderText() {
     var saveWords9 = JSON.parse(localStorage.getItem("9:00 am"));
     $("#9").val("");
     $("#9").val(saveWords9);
+
 
     var saveWords10 = JSON.parse(localStorage.getItem("10:00 am"));
     $("#10").val("");
