@@ -11,3 +11,5 @@ This is a daily planner which can be used to create a schedule
 - If the page is refreshed, the saved events will still be shown in the corresponding timeblock. 
 
 Site deployed at https://dcashdallas.github.io/HW-5-Work-Day-Scheduler/
+
+![work day scheduler demo gif](https://github.com/dcashdallas/HW-5-Work-Day-Scheduler/blob/master/workdayscheduler.gif?raw=true)
